@@ -49,7 +49,7 @@ public class CalculateStatsExample {
 }
 ```
 
-#### 2. `matrixAddition`
+#### 3. `matrixAddition`
 
 Adds two matrices and returns the resultant matrix.
 
