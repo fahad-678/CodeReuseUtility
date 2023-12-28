@@ -78,7 +78,6 @@ public class MatrixAdditionExample {
         }
     }
 }
-
 ```
 
 ## Usage
@@ -145,7 +144,3 @@ public class MatrixAdditionExample {
         }
     }
     ```
-
-```
-
-```
