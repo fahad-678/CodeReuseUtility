@@ -6,9 +6,80 @@ This repository provides a Java utility class 'CodeReuse' that encapsulates comm
 
 ### Methods Included:
 
--   `sortAscending`: Sorts an array of integers in ascending order.
--   `calculateStats`: Computes maximum, minimum, and average values of an integer array.
--   `matrixAddition`: Adds two matrices and returns the resultant matrix.
+#### 1. `sortAscending`
+
+Sorts an array of integers in ascending order.
+
+**Usage Example:**
+
+```java
+import com.example.CodeReuse;
+import java.util.Arrays;
+
+public class SortArrayExample {
+    public static void main(String[] args) {
+        int[] array = {4, 2, 7, 1, 9};
+
+        // Sort the array
+        CodeReuse.sortAscending(array);
+        System.out.println("Sorted Array: " + Arrays.toString(array));
+    }
+}
+```
+
+#### 2. `calculateStats`
+
+Computes maximum, minimum, and average values of an integer array.
+
+**Usage Example:**
+
+```java
+import com.example.CodeReuse;
+
+public class CalculateStatsExample {
+    public static void main(String[] args) {
+        int[] array = {4, 2, 7, 1, 9};
+
+        // Calculate statistics
+        double[] stats = CodeReuse.calculateStats(array);
+        System.out.println("Max: " + stats[0]);
+        System.out.println("Min: " + stats[1]);
+        System.out.println("Average: " + stats[2]);
+    }
+}
+```
+
+#### 2. `matrixAddition`
+
+Adds two matrices and returns the resultant matrix.
+
+**Usage Example:**
+
+```java
+import com.example.CodeReuse;
+import java.util.Arrays;
+
+public class MatrixAdditionExample {
+    public static void main(String[] args) {
+        int[][] matrixA = {
+            {1, 2},
+            {3, 4}
+        };
+        int[][] matrixB = {
+            {5, 6},
+            {7, 8}
+        };
+
+        // Perform matrix addition
+        int[][] resultMatrix = CodeReuse.matrixAddition(matrixA, matrixB, 2, 2);
+        // Display the resultant matrix
+        for (int[] row : resultMatrix) {
+            System.out.println(Arrays.toString(row));
+        }
+    }
+}
+
+```
 
 ## Usage
 
@@ -74,3 +145,7 @@ This repository provides a Java utility class 'CodeReuse' that encapsulates comm
         }
     }
     ```
+
+```
+
+```
